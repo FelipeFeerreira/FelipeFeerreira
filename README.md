@@ -8,9 +8,6 @@
 
 <p align="center">
   <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289"><img src="https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Upwork"></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:YOUR-EMAIL@YOUR-DOMAIN.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://YOUR-AGENCY-SITE.com"><img src="https://img.shields.io/badge/Agency%20Website-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 </p>
 
 ---
@@ -50,27 +47,27 @@
 
 ---
 
-### 📂 Featured projects
+## Featured work
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**Bloom Wellness Clinic**](https://github.com/FelipeFeerreira/bloom-wellness-clinic) | Concept website for an aesthetics clinic (booking, services, team, contact), plus the automation flow behind it: form → confirmation email → WhatsApp alert → CRM | HTML · CSS · JS · n8n |
-| [**Point-of-Sale System**](https://github.com/FelipeFeerreira/mercadinho-pos-system) | Sales, inventory and management system for a small convenience store | Python · Tkinter · SQLite |
-| [**Family Shopping List**](https://github.com/FelipeFeerreira/family-shopping-list) | Shared shopping list app that compares prices across stores | JavaScript |
-| [**Second Brain**](https://github.com/FelipeFeerreira/second-brain) | Personal knowledge system for notes, ideas, books and games | Python |
-| [**Agency Website**](https://github.com/FelipeFeerreira/agency-website) | Website for my web & automation agency | HTML · CSS · JS |
+| Project | What it explores | Technologies |
+| --- | --- | --- |
+| [Retail POS — Java](https://github.com/FelipeFeerreira/retail-pos-java) | Checkout, inventory, customer credit and store finances | Spring Boot, React, PostgreSQL |
+| [Bloom Wellness](https://github.com/FelipeFeerreira/bloom-wellness) | Appointment booking, lead management and notification workflows | Next.js, TypeScript, Prisma |
+| [Retail POS — Python](https://github.com/FelipeFeerreira/retail-pos-python) | Desktop retail operations, finance and peripheral integration | Python, Tkinter, SQLite |
+| [Second Brain](https://github.com/FelipeFeerreira/second-brain) | Local Markdown notes, backlinks and a knowledge graph | Python, Flask |
+| [ElectroCooked](https://github.com/FelipeFeerreira/electrocooked-unity) | Educational circuit and calculus game mechanics | Unity, C# |
+| [Campus Clash](https://github.com/FelipeFeerreira/campus-clash-unreal) | Source study of educational gameplay systems | Unreal Engine, C++ |
 
-<details>
-<summary><b>🎮 Game development (personal projects)</b></summary>
-<br>
+## More projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**Looksfights**](https://github.com/FelipeFeerreira/looksfights) | Open-world fighting RPG on Roblox | Luau |
-| [**Justiceiro**](https://github.com/FelipeFeerreira/justiceiro-boomer-shooter) | Fast-paced boomer shooter prototype | Unity · C# |
-| [**Templar**](https://github.com/FelipeFeerreira/templar-hack-and-slash) | Hack'n'slash action game | Unity · C# |
+- [Stylish Combat](https://github.com/FelipeFeerreira/stylish-combat-unity) — combo chains, aerial combat, lock-on and a style meter.
+- [Justiceiro](https://github.com/FelipeFeerreira/justiceiro-unity) — an arena shooter with procedural level construction and synthesized audio.
+- [Northline Studio](https://github.com/FelipeFeerreira/northline-studio) — an agency website concept with custom visual design and a database-backed contact form.
 
-</details>
+## How to explore
+
+Each repository includes an English README with its scope, setup instructions and verification limits. Game projects are prototypes; Campus Clash is an extracted source study. Bloom and Northline are fictional business concepts. Operational databases, credentials and personal notes are not part of these public repositories.
+
 
 ---
 
@@ -85,5 +82,5 @@
 
 <p align="center">
   <b>Need a website or want to automate part of your business?</b><br>
-  <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">Let's talk on Upwork</a> or <a href="mailto:YOUR-EMAIL@YOUR-DOMAIN.com">send me an email</a>.
+  <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">Let's talk on Upwork</a>.
 </p>
