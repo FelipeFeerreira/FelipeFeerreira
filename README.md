@@ -85,11 +85,9 @@ team manages from a private dashboard.
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/FelipeFeerreira/rastro-publico">
-<img src="https://img.shields.io/badge/Open%20source-civic%20tech-0f766e?style=for-the-badge" alt="Open source civic tech">
-</a>
+<sub>Open source · civic tech · PT-BR</sub>
 
-### [Rastro Público](https://github.com/FelipeFeerreira/rastro-publico) ![PT-BR](https://img.shields.io/badge/PT--BR-555?style=flat-square&labelColor=111)
+### [Rastro Público](https://github.com/FelipeFeerreira/rastro-publico)
 
 Open-source platform for investigating Brazilian public spending. Natural-language
 search, municipal and campus dashboards, and a deterministic audit engine that
