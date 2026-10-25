@@ -180,4 +180,6 @@ flags anomalies for human review — never as proof of wrongdoing.
 
 <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">Let's talk on Upwork</a>
 
+<a href="https://www.linkedin.com/in/fefeerreira">Or connect on LinkedIn</a>
+
 </div>
