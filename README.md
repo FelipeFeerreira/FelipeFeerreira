@@ -9,8 +9,13 @@
 
 <p align="center">
   <a href="https://github.com/FelipeFeerreira?tab=repositories">repositories</a> ·
+  <a href="mailto:felipeferreiradosreis777@gmail.com">email</a> ·
   <a href="https://www.linkedin.com/in/fefeerreira">linkedin</a> ·
   <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">upwork</a>
+</p>
+
+<p align="center">
+  <sub>Open to remote freelance work · UTC-3 · from US$ 10/h · <a href="mailto:felipeferreiradosreis777@gmail.com">tell me what you need</a></sub>
 </p>
 
 ---
@@ -99,7 +104,9 @@ I use agents to write code, and keep the parts that make that safe in the reposi
 - **[pos-agent-surface](https://github.com/FelipeFeerreira/pos-agent-surface)** — a
   read-only surface over the store's POS database: four queries (low stock, open credit,
   expiry, day summary) as a JSON CLI, plus an MCP wrapper. The CLI contract is covered by
-  tests and CI runs them on Python 3.11 and 3.13.
+  tests and runs on Python 3.11 and 3.13. Start at the
+  [SPEC.md](https://github.com/FelipeFeerreira/pos-agent-surface/blob/main/SPEC.md); the
+  [Actions tab](https://github.com/FelipeFeerreira/pos-agent-surface/actions) is the receipt.
 - **Spec first.** The work starts as `SPEC.md`; the agent implements against it, not against
   a hunch.
 - **Tests are the gate.** A change lands when CI is green — the same rule whether I wrote it
@@ -114,13 +121,10 @@ I use agents to write code, and keep the parts that make that safe in the reposi
 | [Vertice Realty](https://github.com/FelipeFeerreira/vertice-realty) | Real estate concierge, lead scoring and agent CRM | TypeScript, Next.js, Prisma |
 | [Bloom Wellness](https://github.com/FelipeFeerreira/bloom-wellness) | Clinic booking with email, WhatsApp and CRM automations | TypeScript, Next.js, Prisma |
 | [Ember & Oak](https://github.com/FelipeFeerreira/ember-oak-coffee) | Coffee storefront with an AI shopping guide and test checkout | TypeScript, Next.js, Stripe |
-| [AUREO Fashion](https://github.com/FelipeFeerreira/aureo-fashion) | Fashion e-commerce with variants and a brand panel | TypeScript, Next.js, Prisma |
 | [Rastro Público](https://github.com/FelipeFeerreira/rastro-publico) | Public spending search, dashboards and audit engine | Python, FastAPI, Next.js |
-| [Retail POS — Java](https://github.com/FelipeFeerreira/retail-pos-java) | Store back office: sales, stock, credit, purchasing, finance | Java, Spring Boot, React, PostgreSQL |
-| [Retail POS — Python](https://github.com/FelipeFeerreira/retail-pos-python) | Desktop retail operations with FEFO batches and customer credit | Python, Tkinter, SQLite |
+| [Retail POS — Python](https://github.com/FelipeFeerreira/retail-pos-python) | The system my own store runs on: sales, stock, customer credit, finance. In daily use since February 2026 — around 6,200 sales recorded, 1,100+ active SKUs and customer credit managed in the same database | Python, Tkinter, SQLite |
+| [Retail POS — Java](https://github.com/FelipeFeerreira/retail-pos-java) | Web back office for the same business: sales, stock, credit, purchasing, finance | Java, Spring Boot, React, PostgreSQL |
 | [pos-agent-surface](https://github.com/FelipeFeerreira/pos-agent-surface) | Read-only agent surface for the POS database (CLI + MCP) | Python, MCP, pytest |
-| [Northline Studio](https://github.com/FelipeFeerreira/northline-studio) | Agency site concept with a database-backed contact flow | TypeScript, Next.js, Prisma |
-| [Second Brain](https://github.com/FelipeFeerreira/second-brain) | Local-first Markdown notes with backlinks and a knowledge graph | Python, Flask |
 
 Game prototypes, kept as systems studies: [Stylish Combat](https://github.com/FelipeFeerreira/stylish-combat-unity)
 and [Justiceiro](https://github.com/FelipeFeerreira/justiceiro-unity) (Unity, C#),
