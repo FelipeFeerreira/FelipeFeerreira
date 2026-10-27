@@ -1,36 +1,31 @@
 <div align="center">
 
-# Felipe Ferreira dos Reis
-
-**Full-stack developer & AI automation engineer**
-
-I build the software a small business actually runs on — point of sale, booking,
-inventory, e-commerce — and the AI agents that connect it to the way the team
-already works.
-
-<p>
-  <img src="https://img.shields.io/badge/S%C3%A3o%20Paulo-Brazil-555?style=flat-square&labelColor=111" alt="São Paulo, Brazil">
-  <img src="https://img.shields.io/badge/UTC--3-555?style=flat-square&labelColor=111" alt="UTC-3">
-  <img src="https://img.shields.io/badge/Open%20to-remote%20work-2ea44f?style=flat-square&labelColor=111" alt="Open to remote work">
-  <img src="https://img.shields.io/badge/Languages-PT%20native%20%C2%B7%20EN%20professional-3b82f6?style=flat-square&labelColor=111" alt="Portuguese native, English professional">
-</p>
-
-<a href="https://www.upwork.com/freelancers/~019235568d9d0f6289"><img src="https://img.shields.io/badge/Hire%20me%20on-Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="Felipe Ferreira dos Reis — full-stack developer. Pipeline: spec, code, test, CI, ship." width="920">
+</picture>
 
 </div>
 
+<p align="center">
+  <a href="https://github.com/FelipeFeerreira?tab=repositories">repositories</a> ·
+  <a href="https://www.linkedin.com/in/fefeerreira">linkedin</a> ·
+  <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">upwork</a>
+</p>
+
 ---
 
-## What I do
+I build the software a small business actually runs on — point of sale, booking,
+inventory, storefronts — and the agents that sit around it. São Paulo, Brazil. Remote,
+UTC-3.
+
+## What I ship
 
 | | |
 | --- | --- |
-| **Business systems** | Sales, inventory, customer credit and finance — desktop or web, built to survive daily use with real operators. |
-| **AI that does work** | Tool-calling agents with RAG over a real knowledge base, human escalation and CRM sync. Not a chat widget bolted onto a form. |
-| **Automation** | Form → confirmation email → WhatsApp alert → CRM record, with a traceable run log instead of invisible magic. |
-| **Client-facing sites** | Booking, catalog and lead capture with live availability, deployed on Vercel with a database behind it. |
-
----
+| **Business systems** | Sales, stock, customer credit and finance. Desktop or web, built for operators who use it all day. |
+| **AI that does work** | Tool calling, RAG over a real knowledge base, human escalation, CRM sync. Wired into the workflow, not bolted onto a form. |
+| **Agent surfaces** | A store database exposed as a read-only contract (JSON CLI + MCP) so an agent can answer without touching production. |
 
 ## Selected work
 
@@ -44,11 +39,11 @@ already works.
 
 ### [AgentDesk AI](https://github.com/FelipeFeerreira/agentdesk-ai)
 
-AI support and sales platform: tool calling, RAG, CRM sync, escalation,
-n8n automations, WhatsApp and web channels, background jobs and observability.
-Every screenshot is a real capture and the demo needs no API keys.
+Support and sales platform: tool calling, RAG, CRM sync, escalation, n8n
+automations, WhatsApp and web channels, background jobs and observability.
+Screenshots are real captures and the demo runs without API keys.
 
-`TypeScript` `Next.js` `PostgreSQL` `Prisma` `LLM`
+<sub>TypeScript · Next.js · PostgreSQL · Prisma · LLM</sub>
 
 </td>
 <td width="50%" valign="top">
@@ -57,13 +52,13 @@ Every screenshot is a real capture and the demo needs no API keys.
 <img src="https://raw.githubusercontent.com/FelipeFeerreira/vertice-realty/HEAD/portfolio/images/01-cover.png" alt="Vertice Realty cover" width="100%">
 </a>
 
-### [Vertice Realty](https://github.com/FelipeFeerreira/vertice-realty) · [live demo](https://vertice-realty.vercel.app)
+### [Vertice Realty](https://github.com/FelipeFeerreira/vertice-realty) · [demo](https://vertice-realty.vercel.app)
 
-Real estate site with a working property concierge, deterministic lead
-qualification, viewing requests and an agent CRM. The scoring is code, not a
-model guess, so an agent can explain why a lead is hot.
+Real estate site with a working concierge, deterministic lead scoring, viewing
+requests and an agent CRM. The score is code, not a model guess, so anyone can
+explain why a lead is hot.
 
-`TypeScript` `Next.js` `Prisma` `PostgreSQL`
+<sub>TypeScript · Next.js · Prisma · PostgreSQL</sub>
 
 </td>
 </tr>
@@ -74,112 +69,80 @@ model guess, so an agent can explain why a lead is hot.
 <img src="https://raw.githubusercontent.com/FelipeFeerreira/bloom-wellness/HEAD/docs/screenshots/home-hero.webp" alt="Bloom Wellness homepage" width="100%">
 </a>
 
-### [Bloom Wellness](https://github.com/FelipeFeerreira/bloom-wellness) · [live demo](https://bloom-wellnessdefinitive.vercel.app)
+### [Bloom Wellness](https://github.com/FelipeFeerreira/bloom-wellness) · [demo](https://bloom-wellnessdefinitive.vercel.app)
 
-Clinic booking with real appointment availability, plus the automations behind
-each submission: confirmation email, owner WhatsApp alert and a CRM entry the
-team manages from a private dashboard.
+Clinic booking with real availability, plus what happens after each submission:
+confirmation email, owner alert and a CRM entry the team manages from a private
+dashboard.
 
-`TypeScript` `Next.js` `Prisma` `PostgreSQL`
+<sub>TypeScript · Next.js · Prisma · PostgreSQL</sub>
 
 </td>
 <td width="50%" valign="top">
 
-<sub>Open source · civic tech · PT-BR</sub>
-
 ### [Rastro Público](https://github.com/FelipeFeerreira/rastro-publico)
 
 Open-source platform for investigating Brazilian public spending. Natural-language
-search, municipal and campus dashboards, and a deterministic audit engine that
-flags anomalies for human review — never as proof of wrongdoing.
+search, municipal and campus dashboards, and a deterministic audit engine that flags
+anomalies for human review — never as proof of wrongdoing.
 
-`Python` `FastAPI` `Next.js` `PostgreSQL` `Docker`
+<sub>Python · FastAPI · Next.js · PostgreSQL · Docker</sub>
 
 </td>
 </tr>
 </table>
 
----
+## Engineering with agents
+
+I use agents to write code, and keep the parts that make that safe in the repository.
+
+- **[pos-agent-surface](https://github.com/FelipeFeerreira/pos-agent-surface)** — a
+  read-only surface over the store's POS database: four queries (low stock, open credit,
+  expiry, day summary) as a JSON CLI, plus an MCP wrapper. The CLI contract is covered by
+  tests and CI runs them on Python 3.11 and 3.13.
+- **Spec first.** The work starts as `SPEC.md`; the agent implements against it, not against
+  a hunch.
+- **Tests are the gate.** A change lands when CI is green — the same rule whether I wrote it
+  or an agent did.
+- **Read-only by default.** Agents get narrow contracts and no credentials in the repository.
 
 ## All projects
 
-| Project | What it does | Stack | Demo |
-| --- | --- | --- | --- |
-| [AgentDesk AI](https://github.com/FelipeFeerreira/agentdesk-ai) | AI support and sales platform with RAG, tool calling and CRM sync | TypeScript, Next.js, Prisma | Runs locally, no keys |
-| [Vertice Realty](https://github.com/FelipeFeerreira/vertice-realty) | Real estate concierge, lead scoring and agent CRM | TypeScript, Next.js, Prisma | [Live](https://vertice-realty.vercel.app) |
-| [Rastro Público](https://github.com/FelipeFeerreira/rastro-publico) | Public spending search, dashboards and audit engine | Python, FastAPI, Next.js | Local / Docker |
-| [Retail POS — Java](https://github.com/FelipeFeerreira/retail-pos-java) | Full store back office: sales, stock, credit, purchasing, finance | Java, Spring Boot, React, PostgreSQL | Local / Docker |
-| [Retail POS — Python](https://github.com/FelipeFeerreira/retail-pos-python) | Desktop retail operations with FEFO batches and customer credit | Python, Tkinter, SQLite | Local |
-| [Bloom Wellness](https://github.com/FelipeFeerreira/bloom-wellness) | Clinic booking with email, WhatsApp and CRM automations | TypeScript, Next.js, Prisma | [Live](https://bloom-wellnessdefinitive.vercel.app) |
-| [Ember & Oak Coffee](https://github.com/FelipeFeerreira/ember-oak-coffee) | Coffee storefront with an AI shopping guide and test checkout | TypeScript, Next.js, Stripe | [Live](https://ember-oak-coffee-one.vercel.app) |
-| [AUREO Fashion](https://github.com/FelipeFeerreira/aureo-fashion) | pt-BR fashion e-commerce with variants and brand panel | TypeScript, Next.js, Prisma | Local |
-| [Northline Studio](https://github.com/FelipeFeerreira/northline-studio) | Agency site concept with a database-backed contact flow | TypeScript, Next.js, Prisma | Local |
-| [Second Brain](https://github.com/FelipeFeerreira/second-brain) | Local-first Markdown notes with backlinks and a knowledge graph | Python, Flask | Local |
-| [Stylish Combat](https://github.com/FelipeFeerreira/stylish-combat-unity) | Unity combat prototype: combos, juggling, lock-on, style meter | C#, Unity | Open in editor |
-| [Justiceiro](https://github.com/FelipeFeerreira/justiceiro-unity) | Arena shooter with procedural level, art and synthesized audio | C#, Unity | Open in editor |
-| [ElectroCooked](https://github.com/FelipeFeerreira/electrocooked-unity) | Educational circuit and calculus game mechanics | C#, Unity | Open in editor |
-| [Campus Clash](https://github.com/FelipeFeerreira/campus-clash-unreal) | Unreal C++ source study of educational gameplay systems | C++, Unreal Engine | Source only |
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [AgentDesk AI](https://github.com/FelipeFeerreira/agentdesk-ai) | AI support and sales platform with RAG, tool calling and CRM sync | TypeScript, Next.js, Prisma |
+| [Vertice Realty](https://github.com/FelipeFeerreira/vertice-realty) | Real estate concierge, lead scoring and agent CRM | TypeScript, Next.js, Prisma |
+| [Bloom Wellness](https://github.com/FelipeFeerreira/bloom-wellness) | Clinic booking with email, WhatsApp and CRM automations | TypeScript, Next.js, Prisma |
+| [Ember & Oak](https://github.com/FelipeFeerreira/ember-oak-coffee) | Coffee storefront with an AI shopping guide and test checkout | TypeScript, Next.js, Stripe |
+| [AUREO Fashion](https://github.com/FelipeFeerreira/aureo-fashion) | Fashion e-commerce with variants and a brand panel | TypeScript, Next.js, Prisma |
+| [Rastro Público](https://github.com/FelipeFeerreira/rastro-publico) | Public spending search, dashboards and audit engine | Python, FastAPI, Next.js |
+| [Retail POS — Java](https://github.com/FelipeFeerreira/retail-pos-java) | Store back office: sales, stock, credit, purchasing, finance | Java, Spring Boot, React, PostgreSQL |
+| [Retail POS — Python](https://github.com/FelipeFeerreira/retail-pos-python) | Desktop retail operations with FEFO batches and customer credit | Python, Tkinter, SQLite |
+| [pos-agent-surface](https://github.com/FelipeFeerreira/pos-agent-surface) | Read-only agent surface for the POS database (CLI + MCP) | Python, MCP, pytest |
+| [Northline Studio](https://github.com/FelipeFeerreira/northline-studio) | Agency site concept with a database-backed contact flow | TypeScript, Next.js, Prisma |
+| [Second Brain](https://github.com/FelipeFeerreira/second-brain) | Local-first Markdown notes with backlinks and a knowledge graph | Python, Flask |
 
----
+Game prototypes, kept as systems studies: [Stylish Combat](https://github.com/FelipeFeerreira/stylish-combat-unity)
+and [Justiceiro](https://github.com/FelipeFeerreira/justiceiro-unity) (Unity, C#),
+[ElectroCooked](https://github.com/FelipeFeerreira/electrocooked-unity) (educational, Unity),
+[Campus Clash](https://github.com/FelipeFeerreira/campus-clash-unreal) (Unreal, C++).
 
 ## Stack
 
-**Web & app**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-
-**Backend & data**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**AI & automation**
-![LLM APIs](https://img.shields.io/badge/LLM%20APIs-412991?style=flat-square&logo=anthropic&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-6E56CF?style=flat-square&logo=semanticweb&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![WhatsApp](https://img.shields.io/badge/WhatsApp%20API-25D366?style=flat-square&logo=whatsapp&logoColor=white)
-![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white)
-![Make](https://img.shields.io/badge/Make-6D00CC?style=flat-square&logo=make&logoColor=white)
-
-**Games**
-![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Unreal](https://img.shields.io/badge/Unreal%20Engine-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
----
-
-## How I build
-
-- **Every repository states what is verified and what is not.** Prototypes are labeled prototypes; a fresh import that was never play-tested says so. See each `docs/PORTFOLIO_VALIDATION.md`.
-- **Money and scoring are deterministic.** In POS, billing and lead qualification the numbers come from code with tests — AI explains and organizes, it does not invent values.
-- **Demos run without secrets.** Seeded, fictional data and no API keys required, so anyone can clone and evaluate the work in minutes.
-- **Docs ship with the code.** Architecture, data model, deployment and testing notes live next to the feature they describe.
-
----
+TypeScript · Next.js · React · Tailwind · Python · FastAPI · Java · Spring Boot ·
+Node · PostgreSQL · Prisma · SQLite · Docker · GitHub Actions · Unity (C#) · Unreal (C++)
 
 ## About
 
-- Control and Automation Engineering student at Instituto Federal (IFSP), São Paulo.
-- Portuguese native, English professional — comfortable with US and European working hours.
-- Currently going deeper on LLM application architecture and backend reliability.
-- Also comfortable with Unity and Unreal: I like systems with feedback loops, whether that is a combat prototype or a checkout.
+Control and Automation Engineering student at IFSP, graduating in 2026. Before and
+alongside that: support and development work at a mobility startup, an insurance assistance
+company and a supply-planning internship at PepsiCo. Everything above is my own project
+work, not client delivery.
 
-<div align="center">
+I am going deeper on LLM application architecture and backend reliability, and I keep the
+games around because a combat prototype and a checkout have the same problem underneath:
+state, feedback and failure modes.
 
-**Need a site, an internal system, or an automation that stops eating your week?**
-
-<a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">Let's talk on Upwork</a>
-
-<a href="https://www.linkedin.com/in/fefeerreira">Or connect on LinkedIn</a>
-
-</div>
+<p align="center">
+  <a href="https://www.upwork.com/freelancers/~019235568d9d0f6289">Need a system, a site or an automation? Let's talk on Upwork.</a>
+</p>
