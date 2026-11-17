@@ -2,7 +2,7 @@
 
 # Felipe Ferreira dos Reis
 
-**Game developer in transition · C++ / Unreal Engine 5 · Backend Java + Spring Boot**
+**Game developer · C++ / Unreal Engine 5 · Gameplay & Tools · Backend Java + Spring Boot**
 
 I come from software that runs every day: the point-of-sale and back office a real
 grocery store uses is mine, in production since the migration from Python to Java.
